@@ -1,0 +1,13 @@
+.question-card {
+  z-index: 900;
+  background: #ffffff;
+  border-radius: 24px;
+  position: absolute;
+  left: 50%;
+  width: 600px;
+  padding: 2rem 1rem;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
