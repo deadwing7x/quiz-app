@@ -11,3 +11,12 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.startAgain {
+  border: 1px solid lightblue;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-size: 22px;
+  margin-top: 1rem;
+  border-radius: 12px;
+}

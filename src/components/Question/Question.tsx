@@ -7,7 +7,8 @@ import "./Question.css";
 const Question: React.FC<IResponse> = (question) => {
   const answers: IAnswer = {
     correctAnswer: question.correct_answer,
-    incorrectAnswers: question.incorrect_answers
+    incorrectAnswers: question.incorrect_answers,
+    question: question.question
   };
 
   return (

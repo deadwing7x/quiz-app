@@ -3,7 +3,7 @@
   font-weight: 500;
 }
 
-#answer {
+.row.answer {
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
@@ -18,8 +18,12 @@
   justify-content: center;
 }
 
+.row.answer:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
 .answerDiv {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
