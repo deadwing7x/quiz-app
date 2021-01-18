@@ -13,8 +13,6 @@ const QuestionCard: React.FC<IResponse[]> = (allQuestions) => {
     setIndex(index + 1);
   };
 
-  sessionStorage.removeItem("questions");
-  sessionStorage.removeItem("answers");
   sessionStorage.setItem("questionAnswers", JSON.stringify(questions));
 
   return (
